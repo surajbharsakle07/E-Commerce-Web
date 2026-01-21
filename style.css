@@ -1,0 +1,119 @@
+/* General Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* background: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=2000') no-repeat center center fixed; */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* padding-left: 50px; */
+}
+
+/* Glassmorphism Sidebar */
+.sidebar {
+    width: 290px;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    backdrop-filter: blur(15px); /* This creates the blur effect */
+    /* -webkit-backdrop-filter: blur(15px); */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* User Info Section */
+.user-profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bwhite;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.user-name {
+    color: b;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation Links */
+.nav-menu ul {
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-bottom: 15px;
+    background: rgba(147, 225, 239, 0.632); /* additional by me*/
+    border-radius: 0.5rem;  /* additional by me*/
+}
+
+.nav-menu a {
+    text-decoration: none;
+    /* color: rgba(255, 255, 255, 0.8); */
+    
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 12px;
+    /* transition: all 0.3s ease; */
+}
+
+.nav-menu i {
+    margin-right: 15px;
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+}
+
+/* Hover & Active States */
+.nav-menu a:hover, .nav-menu li a {   /*li.active a*/
+    background: rgba(255, 255, 255, 0.2);
+    /* color: white; */
+    /* transform: translateX(5px); */
+}
+
+.nav-menu li.active a {
+    /* border-left: 4px solid #2575fc; Accent color on active link */
+}
+
+/* Logout Button */
+.sidebar-footer {
+    /* margin-top: auto; */
+}
+
+.logout-btn {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: rgba(255, 0, 0, 0.4);
+}
