@@ -82,7 +82,7 @@ body {
 }
 
 .nav-menu a:hover, .nav-menu li.active a {  
-    background: rgba(255, 255, 255, 0.2);
+    /* background: rgba(255, 255, 255, 0.2); */
     transform: translateX(5px)
 }
 
