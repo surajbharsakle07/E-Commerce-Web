@@ -14,29 +14,29 @@ body {
 }
 
 .sidebar {
-    width: 290px;
+    width: 18.125rem;
     height: 100vh;
     background: rgba(255, 255, 255, 0.15); 
-    backdrop-filter: blur(15px); 
+    backdrop-filter: blur(1rem); 
     border: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
-    padding: 30px 20px;
+    padding: 2rem 1.25rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 .user-profile {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .avatar {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     /* background: linear-gradient(45deg, #6a11cb, #2575fc); */
     background-color: rgb(143, 29, 143);
     border-radius: 50%;
-    margin: 0 auto 15px;
+    margin: 0 auto 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
 
 .user-name {
     color: rgb(81, 12, 81);
-    font-size: 20px;
+    font-size: 1.4rem;
     letter-spacing: 0.5px;
 }
 
@@ -59,14 +59,14 @@ body {
 
 
 .nav-menu li {
-    margin-bottom: 15px;
+    margin-bottom: 0.9rem;
     background: rgba(147, 225, 239, 0.632);
     border-radius: 0.5rem;
 }
 
 .nav-menu a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     padding: 12px 15px;
